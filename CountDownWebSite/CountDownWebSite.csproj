@@ -76,7 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Event-Countdown-landingPage-MobileTemplate.png" />
-    <Content Include="Assets\Event-Countdown-landingPage-MobileTemplate[242].png" />
     <Content Include="Assets\Event-Countdown-landingPage-template.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
