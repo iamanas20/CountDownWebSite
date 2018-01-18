@@ -2,8 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-
-
+    <%-- Internet is required, Internet est obligatoire pour l'execution de Bootstrap 4  --%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 
     <div class="row" style="background: url(Assets/160624-university-of-michigan-submitted[1].png) right center; width: 100%; margin: 0px 0px 0px 0px; background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
         <div class="col-md-6 col-xs-12" style="text-align: center">
@@ -40,22 +40,22 @@
             <p style="margin-left: 15px; text-align: justify; align-self: center">A quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6">
-            <img src="Assets\The-Event-Company_w[1].jpg" width="450" alt="Alternate Text" />
+            <img src="Assets\The-Event-Company_w[1].jpg" width="100%" alt="Alternate Text" />
         </div>
     </div>
 
     <hr />
 
-    <div class="row" style="width: 100%; margin: 0 0 0 0; margin-top: 20px;">
-        <div class="col-md-6">
-            <img src="Assets\smart_city_2[1].jpg" alt="Alternate Text" />
+    <div class="row" style="width: 100%; margin: 0 0 0 0; margin-top: -100px;">
+        <div style="margin-top: 70px;" class="col-md-6">
+            <img src="Assets\smart_city_2[1].jpg" width="100%" alt="Alternate Text" />
         </div>
         <div class="col-md-6">
             <h2><small>Questions</small></h2>
             <h2>FAQ</h2>
             <hr />
 
-            <div class="row" style="width: 90%">
+            <div class="row center-block" style="width: 90%">
                 <div class="panel-group">
                     <div class="panel panel-default">
                         <a class="panel-default" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
@@ -106,7 +106,7 @@
     </div>
 
 
-    <div class="row" align="center" style="width:100%; text-align:center; margin: 0 0 0 0; margin-top: 35px; text-align:center">
+    <div class="row" align="center" style="width: 100%; text-align: center; margin: 0 0 0 0; margin-top: 35px; text-align: center">
         <div align="center" style="" id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -154,26 +154,92 @@
         </div>
     </div>
 
+    <br />
+
+    <hr style="margin-left: 110px;" />
+
+    <div style="margin: -30px 0 0 0; width: 100%;">
+        <h4>Our Team</h4>
+        <div class="card-deck" style="margin-top: 20px;">
+            <div class='card card-profile text-center'>
+                <img alt='' class='card-img-top' src='Assets\landscape_nature_hills_trees_foliage_fog_sunrise_sun_81136_1280x720[1].jpg' style="width: 100%">
+                <div class='card-block'>
+                    <img alt='' width="50%" style="border-radius: 80px; margin-top: -100px; border: solid 4px white" class='card-img-profile' src='Assets\E_kRRlaZ_400x400[1].jpg'>
+                    <h4 class='card-title' style="margin-top: 25px;">Anna</h4>
+                    <p>Passionate designer</p>
+                    <p style="margin-top: -20px;">Curious developer</p>
+                    <p style="margin-top: -20px;">Tech geek</p>
+                </div>
+            </div>
+
+            <div class='card card-profile text-center'>
+                <img alt='' class='card-img-top' src='Assets\road_field_fence_house_landscape_84628_1280x720[1].jpg' style="width: 100%">
+                <div class='card-block'>
+                    <img alt='' width="50%" style="border-radius: 80px; margin-top: -100px; border: solid 4px white" class='card-img-profile' src='Assets\kQZzSuiw_400x400[1].jpg'>
+                    <h4 class='card-title' style="margin-top: 25px;">Sele</h4>
+                    <p>Passionate designer</p>
+                    <p style="margin-top: -20px;">Curious developer</p>
+                    <p style="margin-top: -20px;">Tech geek</p>
+                </div>
+            </div>
+
+            <div class='card card-profile text-center'>
+                <img alt='' class='card-img-top' src='Assets\SPf2A3pw_1280x720[1].jpg' style="width: 100%">
+                <div class='card-block'>
+                    <img alt='' width="50%" style="border-radius: 80px; margin-top: -100px; border: solid 4px white" class='card-img-profile' src='Assets\sNDnYYZe_400x400[1].jpg'>
+                    <h4 class='card-title' style="margin-top: 25px;">Tay</h4>
+                    <p>Passionate designer</p>
+                    <p style="margin-top: -20px;">Curious developer</p>
+                    <p style="margin-top: -20px;">Tech geek</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <div class="row" style="margin-left: 5%; margin-right: 5%; margin-top: 100px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est velit egestas dui id. Dictumst quisque sagittis purus sit amet. Sollicitudin nibh sit amet commodo nulla facilisi. Nisl vel pretium lectus quam id leo in. Eu consequat ac felis donec et odio pellentesque diam. Non curabitur gravida arcu ac. Pulvinar sapien et ligula ullamcorper malesuada proin. Ultrices tincidunt arcu non sodales neque sodales. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse.</p>
+    </div>
 
+    <div style="margin: 100px 0 0 0; width: 100%;">
+        <fieldset  style="margin-left: 5%; margin-right: 5%">
+            <legend>Our Partners</legend>
+            <div class="row" style="width: 100%; margin: 0 0 0 0">
+                <br />
+                <div class="col-sm-6 col-12">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa id neque aliquam. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Ultricies mi eget mauris pharetra et ultrices neque.<br />
+                    <small>- Jon Galloway</small>
+                </div>
+                <div class="col-sm-6 col-12 text-center">
+                    <img src="Assets/tech-company-logos_500x293[1].jpg" width="100%" />
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <h2 style="margin-top:100px;" align="center">Contact And Location</h2>
+
+    <div class="row" style="margin: 60px 0 0 0; width: 100%;">
+        <div class="col-sm-5 col-12">
+            <form style="width: 100%; text-align: center;">
+                <div class="form-group" style="width: 100%; text-align:center">
+                    <input placeholder="Enter your name" type="text" style="width: 100%;" class="form-control" >
+                </div>
+                <div class="form-group" style="width: 100%;">
+                    <input placeholder="Enter your email" type="email" style="width: 100%;" class="form-control">
+                </div>
+                <div class="form-group" style="width: 100%;">
+                    <input placeholder="Enter your message title" style="width: 100%;" type="text" class="form-control">
+                </div>
+                <div class="form-group" style="width: 100%;">
+                    <textArea placeholder="Enter your message" style="width: 100%;" rows="5" class="form-control"></textArea>
+                </div>
+                <button type="submit" class="btn btn-success" style="width: 100%;">Submit</button>
+            </form>
+        </div>
+        <div class="col-sm-5 col-12">
+        </div>
+        <div class="col-sm-2 col-12"></div>
+    </div>
 
 </asp:Content>
-
-
-
-
-
-
-
-
-<%--<div class="carousel-item">
-    <img src="Assets\untitled.png" alt="Smart City">
-</div>
-<div class="carousel-item">
-    <img src="Assets\chicago-south-loop-hotel-home1-top[1].jpg" alt="Chicago">
-</div>
-<div class="carousel-item">
-    <img src="Assets\Los-Angeles---Attractions---Observatory-xlarge[1].jpg" alt="LA">
-</div>--%>
-
