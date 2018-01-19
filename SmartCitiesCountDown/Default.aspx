@@ -5,11 +5,11 @@
     <%-- Internet is required, Internet est obligatoire pour l'execution de Bootstrap 4  --%>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 
-    <div class="row" style="background: url(Assets/160624-university-of-michigan-submitted[1].png) right center; width: 100%; margin: 0px 0px 0px 0px; background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <div class="row" style="text-align: center; background: url(Assets/160624-university-of-michigan-submitted[1].png) right center; width: 100%; margin: 0px 0px 0px 0px; background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
         <div class="col-md-6 col-xs-12" style="text-align: center">
             <img src="Assets\sc-primary-logo[2].png" style="width: 60%; margin-top: 30px;" alt="Alternate Text" />
         </div>
-        <div style="margin-top: 50px;" class="col-md-6 col-xs-12">
+        <div style="margin-top: 50px;" width="100%" class="col-md-6 col-xs-12">
             <div style="align-self: center; align-content: center;">
                 <h6 style="color: white">Prepare for</h6>
                 <h1 style="color: white">SMART-CITY</h1>
@@ -20,18 +20,26 @@
                     <div class="col-md-6 col-xs-12">
                         <button style="width: 70%;" class="btn btn-success">More Info</button>
                     </div>
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-md-6 col-xs-12" style="margin-top: 10px;">
                         <button style="width: 70%;" class="btn btn-success">Register Now</button>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
                 <div>
                     <h3 style="color: white">The event will start in:</h3>
+                    <br />
+                    <p style="text-align: center; color: white; font-size: 60px; margin-top: 0px;"
+                        id="demo">
+                    </p>
                 </div>
             </div>
 
         </div>
     </div>
 
+    <br />
 
     <div class="row" style="width: 100%; margin: 0 0 0 0">
         <div class="col-md-6">
@@ -40,17 +48,17 @@
             <p style="margin-left: 15px; text-align: justify; align-self: center">A quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6">
-            <img src="Assets\The-Event-Company_w[1].jpg" width="100%" alt="Alternate Text" />
+            <img src="Assets\The-Event-Company_w[1].jpg" width="100%" style="max-width: 500px;" alt="Alternate Text" />
         </div>
     </div>
 
     <hr />
 
     <div class="row" style="width: 100%; margin: 0 0 0 0; margin-top: -100px;">
-        <div style="margin-top: 70px;" class="col-md-6">
-            <img src="Assets\smart_city_2[1].jpg" width="100%" alt="Alternate Text" />
+        <div style="margin-top: 70px;" class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6 text-left">
+            <img src="Assets\smart_city_2[1].jpg" width="100%" alt="Alternate Text" align="center" style="max-width: 500px;" />
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 col-md-6 col-lg-6 col-xl-6">
             <h2><small>Questions</small></h2>
             <h2>FAQ</h2>
             <hr />
@@ -135,7 +143,7 @@
 
                 <div class="item">
                     <img src="Assets\Los-Angeles---Attractions---Observatory-xlarge[1].jpg" width="100%" alt="LA">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption ">
                         <h3>New York</h3>
                         <p>We love the USA!!</p>
                     </div>
@@ -202,7 +210,7 @@
     </div>
 
     <div style="margin: 100px 0 0 0; width: 100%;">
-        <fieldset  style="margin-left: 5%; margin-right: 5%">
+        <fieldset style="margin-left: 5%; margin-right: 5%">
             <legend>Our Partners</legend>
             <div class="row" style="width: 100%; margin: 0 0 0 0">
                 <br />
@@ -217,13 +225,13 @@
         </fieldset>
     </div>
 
-    <h2 style="margin-top:100px;" align="center">Contact And Location</h2>
+    <h2 style="margin-top: 100px;" align="center">Contact And Location</h2>
 
     <div class="row" style="margin: 60px 0 0 0; width: 100%;">
-        <div class="col-sm-5 col-12">
-            <form style="width: 100%; text-align: center;">
-                <div class="form-group" style="width: 100%; text-align:center">
-                    <input placeholder="Enter your name" type="text" style="width: 100%;" class="form-control" >
+        <div class="col-sm-4 col-12 text-xs-center">
+            <form class="center-block" style="width: 100%; text-align: center;">
+                <div class="form-group" style="width: 100%;">
+                    <input placeholder="Enter your name" type="text" style="width: 100%;" class="form-control">
                 </div>
                 <div class="form-group" style="width: 100%;">
                     <input placeholder="Enter your email" type="email" style="width: 100%;" class="form-control">
@@ -232,14 +240,72 @@
                     <input placeholder="Enter your message title" style="width: 100%;" type="text" class="form-control">
                 </div>
                 <div class="form-group" style="width: 100%;">
-                    <textArea placeholder="Enter your message" style="width: 100%;" rows="5" class="form-control"></textArea>
+                    <textarea placeholder="Enter your message" style="width: 100%;" rows="5" class="form-control"></textarea>
                 </div>
-                <button type="submit" class="btn btn-success" style="width: 100%;">Submit</button>
+                <button type="submit" class="btn btn-success" style="width: 100%; max-width: 300px; float: left">Submit</button>
             </form>
         </div>
         <div class="col-sm-5 col-12">
+            <div id="map" style="width: 100%; height: 350px"></div>
         </div>
-        <div class="col-sm-2 col-12"></div>
+        <div class="col-sm-3 col-12 text-xs-center" width="100%">
+            <h3>Smart City</h3>
+            <h3>Conference</h3>
+            <address>
+                <strong>Example Inc.</strong><br>
+                1234 Example Street<br>
+                Antartica, Example 0987<br>
+                <b>Phone</b>
+                (123) 456-7890
+            </address>
+
+        </div>
     </div>
+
+
+
+    <script>
+        function initMap() {
+            var uluru = { lat: 31.622088, lng: -8.046835 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbbDcLal5CDVR21vOzccgd7sIbli-43Pg&callback=initMap">
+    </script>
+
+    <script>
+        var countDownDate = new Date("April 1, 2018 15:37:25").getTime();
+
+        var x = setInterval(function () {
+
+            var now = new Date().getTime();
+
+
+            var distance = countDownDate - now;
+
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 
 </asp:Content>

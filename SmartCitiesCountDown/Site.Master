@@ -12,7 +12,7 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
@@ -57,7 +57,8 @@
                         <li><a runat="server" href="~">Gallery</a></li>
                         <li><a runat="server" href="~">Team</a></li>
                         <li><a runat="server" href="~">Contact</a></li>
-                        <li><button type="button" class="btn btn-info navbar-btn">Register Now</button></li>
+                        <li>
+                            <button type="button" class="btn btn-info navbar-btn">Register Now</button></li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +67,20 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <%--<footer>
+
+            <div id="footer" style="left: 0; padding-top: 15px; bottom: -20px; margin: 0 0 0 0; width: 100%; background-color: #4fd356; color: white; height: 70px;">
+                <span style="width:100%; margin-left: 50px;"><i><%: DateTime.Now.Year %> Anas Latique TDI2C, Copyright &copy;</i></span>
+                <ul style="list-style: none; float:right; color: white">
+                    <li style="float: left; margin-right: 20px;"><a style=" color: white" href="#" class="fa fa-facebook"></a></li>
+                    <li style="float: left; margin-right: 20px;"><a style=" color: white" href="#" class="fa fa-youtube"></a></li>
+                    <li style="float: left; margin-right: 20px;"><a style=" color: white" href="#" class="fa fa-twitter"></a></li>
+                    <li style="float: left; margin-right: 50px;"><a style=" color: white" href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <%--<footer style="background-color: #b1b1b1; width: 100%; margin: 0 0 0 0">
                 <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
             </footer>--%>
         </div>
